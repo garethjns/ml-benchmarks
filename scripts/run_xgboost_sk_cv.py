@@ -4,7 +4,7 @@ from ml_benchmarks.models.xgboost_sk_grid import XGBoostSKGrid
 
 
 def run():
-    bench = Benchmark(XGBoostSKGrid(n_jobs=-1, verbose=1), Synthetic(), n_runs=3)
+    bench = Benchmark(XGBoostSKGrid(n_jobs=-1, verbose=1), Synthetic(), n_runs=16)
     bench.run()
     print(bench.times)
     bench.plot_ts()
