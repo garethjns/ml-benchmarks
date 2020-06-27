@@ -2,3 +2,5 @@ xgboost
 sklearn
 seaborn
 pandas
+matplotlib
+dataclasses
