@@ -1,1 +1,1 @@
-# ml_benchmarks
+# ml-benchmarks
