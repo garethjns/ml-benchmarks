@@ -44,9 +44,11 @@ class Benchmark:
     def plot_ts(self):
         sns.set()
         sns.lineplot(x='Run', y='Time', data=self.result)
-        plt.show()
+        plt.savefig('ts.png')
+        plt.close()
 
     def plot_box(self):
         sns.set()
         sns.boxplot(y='Time', data=self.result)
-        plt.show()
+        plt.savefig('boxplot.png')
+        plt.close()
